@@ -1,0 +1,107 @@
+{
+  "uid" : "83b4e322ce5403e6",
+  "name" : "firstTest()",
+  "fullName" : "TestTest.firstTest",
+  "historyId" : "26d3aa415f7b7316a2597b6bccf67309",
+  "time" : {
+    "start" : 1630922021120,
+    "stop" : 1630922030721,
+    "duration" : 9601
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1630922021141,
+      "stop" : 1630922026567,
+      "duration" : 5426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1630922030640,
+      "stop" : 1630922030712,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-662"
+  }, {
+    "name" : "thread",
+    "value" : "2826@fv-az83-662.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "firstTest"
+  }, {
+    "name" : "suite",
+    "value" : "TestTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e282195c88801cd3",
+        "reportUrl" : "https://zotyo911.github.io/finalExambyZoltanSoos/2//#testresult/e282195c88801cd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630909082067,
+          "stop" : 1630909097454,
+          "duration" : 15387
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "83b4e322ce5403e6.json",
+  "parameterValues" : [ ]
+}
