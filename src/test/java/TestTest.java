@@ -30,7 +30,6 @@ public class TestTest {
     @AfterEach
     public void Close()
     {
-        //Driver dispose
         webdriver.quit();
     }
 
@@ -40,4 +39,6 @@ public class TestTest {
 
         Assertions.assertEquals("https://www.seleniumeasy.com/", webdriver.getCurrentUrl());
     }
+
+    
 }
